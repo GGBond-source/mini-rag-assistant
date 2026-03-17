@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "question": "猫是什么动物？",
+    "ground_truth": "猫是哺乳动物，属于猫科动物。",
+    "keywords": ["哺乳动物", "猫科动物"]
+  },
+  {
+    "id": 2,
+    "question": "葡萄可以用来做什么？",
+    "ground_truth": "葡萄可以用来酿酒。",
+    "keywords": ["葡萄", "酿酒"]
+  },
+  {
+    "id": 3,
+    "question": "狗属于什么科？",
+    "ground_truth": "狗属于犬科动物。",
+    "keywords": ["狗", "犬科动物"]
+  },
+  {
+    "id": 4,
+    "question": "机器学习可以做什么？",
+    "ground_truth": "机器学习可以用于分类和预测任务。",
+    "keywords": ["机器学习", "分类", "预测"]
+  },
+  {
+    "id": 5,
+    "question": "猫会开车吗？",
+    "ground_truth": "根据给定资料无法确定。",
+    "keywords": ["无法确定"]
+  },
+  {
+    "id": 6,
+    "question": "苹果是什么？",
+    "ground_truth": "苹果是一种水果。",
+    "keywords": ["苹果", "水果"]
+  },
+  {
+    "id": 7,
+    "question": "橘子富含什么？",
+    "ground_truth": "橘子富含维生素C。",
+    "keywords": ["橘子", "维生素C"]
+  },
+  {
+    "id": 8,
+    "question": "狗会做什么？",
+    "ground_truth": "根据给定资料，狗会看家，也会摇尾巴表达情绪。",
+    "keywords": ["看家", "摇尾巴"]
+  }
+]

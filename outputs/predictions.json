@@ -1,0 +1,158 @@
+[
+  {
+    "id": 1,
+    "question": "猫是什么动物？",
+    "ground_truth": "猫是哺乳动物，属于猫科动物。",
+    "prediction": "根据给定资料无法确定。",
+    "status": "insufficient",
+    "keywords": [
+      "哺乳动物",
+      "猫科动物"
+    ],
+    "keyword_hit_score": 0.0,
+    "exact_match": false,
+    "evidence": [],
+    "contexts": [
+      "猫是哺乳动物。",
+      "猫属于猫科动物。",
+      "猫会用喵喵叫表达需求。"
+    ]
+  },
+  {
+    "id": 2,
+    "question": "葡萄可以用来做什么？",
+    "ground_truth": "葡萄可以用来酿酒。",
+    "prediction": "葡萄可以用来酿酒。",
+    "status": "success",
+    "keywords": [
+      "葡萄",
+      "酿酒"
+    ],
+    "keyword_hit_score": 1.0,
+    "exact_match": true,
+    "evidence": [
+      "葡萄可以用来酿酒。"
+    ],
+    "contexts": [
+      "葡萄可以用来酿酒。",
+      "葡萄是一种水果。",
+      "梨的口感清脆多汁。"
+    ]
+  },
+  {
+    "id": 3,
+    "question": "狗属于什么科？",
+    "ground_truth": "狗属于犬科动物。",
+    "prediction": "狗属于犬科动物。",
+    "status": "success",
+    "keywords": [
+      "狗",
+      "犬科动物"
+    ],
+    "keyword_hit_score": 1.0,
+    "exact_match": true,
+    "evidence": [
+      "狗属于犬科动物。"
+    ],
+    "contexts": [
+      "狗属于犬科动物。",
+      "狗是人类的朋友。",
+      "狗会摇尾巴表达情绪。"
+    ]
+  },
+  {
+    "id": 4,
+    "question": "机器学习可以做什么？",
+    "ground_truth": "机器学习可以用于分类和预测任务。",
+    "prediction": "根据给定资料无法确定。",
+    "status": "insufficient",
+    "keywords": [
+      "机器学习",
+      "分类",
+      "预测"
+    ],
+    "keyword_hit_score": 0.0,
+    "exact_match": false,
+    "evidence": [],
+    "contexts": [
+      "机器学习可以用于分类和预测任务。",
+      "深度学习是一种机器学习方法。",
+      "神经网络是深度学习的重要模型。"
+    ]
+  },
+  {
+    "id": 5,
+    "question": "猫会开车吗？",
+    "ground_truth": "根据给定资料无法确定。",
+    "prediction": "根据给定资料无法确定。",
+    "status": "insufficient",
+    "keywords": [
+      "无法确定"
+    ],
+    "keyword_hit_score": 1.0,
+    "exact_match": true,
+    "evidence": [],
+    "contexts": [
+      "猫属于猫科动物。",
+      "猫是哺乳动物。",
+      "猫会用喵喵叫表达需求。"
+    ]
+  },
+  {
+    "id": 6,
+    "question": "苹果是什么？",
+    "ground_truth": "苹果是一种水果。",
+    "prediction": "根据给定资料无法确定。",
+    "status": "insufficient",
+    "keywords": [
+      "苹果",
+      "水果"
+    ],
+    "keyword_hit_score": 0.0,
+    "exact_match": false,
+    "evidence": [],
+    "contexts": [
+      "苹果是一种水果。",
+      "苹果富含膳食纤维。",
+      "梨是一种水果。"
+    ]
+  },
+  {
+    "id": 7,
+    "question": "橘子富含什么？",
+    "ground_truth": "橘子富含维生素C。",
+    "prediction": "根据给定资料无法确定。",
+    "status": "insufficient",
+    "keywords": [
+      "橘子",
+      "维生素C"
+    ],
+    "keyword_hit_score": 0.0,
+    "exact_match": false,
+    "evidence": [],
+    "contexts": [
+      "橘子是一种水果。",
+      "橘子富含维生素C。",
+      "水果通常含有维生素。"
+    ]
+  },
+  {
+    "id": 8,
+    "question": "狗会做什么？",
+    "ground_truth": "根据给定资料，狗会看家，也会摇尾巴表达情绪。",
+    "prediction": "根据给定资料无法确定。",
+    "status": "insufficient",
+    "keywords": [
+      "看家",
+      "摇尾巴"
+    ],
+    "keyword_hit_score": 0.0,
+    "exact_match": false,
+    "evidence": [],
+    "contexts": [
+      "狗属于犬科动物。",
+      "狗会摇尾巴表达情绪。",
+      "狗需要遛弯和训练。"
+    ]
+  }
+]

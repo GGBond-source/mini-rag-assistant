@@ -1,0 +1,89 @@
+==== Evaluation Report ====
+Total samples: 8
+Exact Match: 0.3750
+Average Keyword Hit: 0.3750
+Retrieval Hit: 0.8750
+Success count: 2
+Insufficient count: 6
+
+==== Per-sample Results ====
+[ID] 1
+Question: 猫是什么动物？
+Ground Truth: 猫是哺乳动物，属于猫科动物。
+Prediction: 根据给定资料无法确定。
+Status: insufficient
+Exact Match: False
+Keyword Hit Score: 0.0000
+Evidence: []
+Contexts: ['猫是哺乳动物。', '猫属于猫科动物。', '猫会用喵喵叫表达需求。']
+------------------------------------------------------------
+[ID] 2
+Question: 葡萄可以用来做什么？
+Ground Truth: 葡萄可以用来酿酒。
+Prediction: 葡萄可以用来酿酒。
+Status: success
+Exact Match: True
+Keyword Hit Score: 1.0000
+Evidence: ['葡萄可以用来酿酒。']
+Contexts: ['葡萄可以用来酿酒。', '葡萄是一种水果。', '梨的口感清脆多汁。']
+------------------------------------------------------------
+[ID] 3
+Question: 狗属于什么科？
+Ground Truth: 狗属于犬科动物。
+Prediction: 狗属于犬科动物。
+Status: success
+Exact Match: True
+Keyword Hit Score: 1.0000
+Evidence: ['狗属于犬科动物。']
+Contexts: ['狗属于犬科动物。', '狗是人类的朋友。', '狗会摇尾巴表达情绪。']
+------------------------------------------------------------
+[ID] 4
+Question: 机器学习可以做什么？
+Ground Truth: 机器学习可以用于分类和预测任务。
+Prediction: 根据给定资料无法确定。
+Status: insufficient
+Exact Match: False
+Keyword Hit Score: 0.0000
+Evidence: []
+Contexts: ['机器学习可以用于分类和预测任务。', '深度学习是一种机器学习方法。', '神经网络是深度学习的重要模型。']
+------------------------------------------------------------
+[ID] 5
+Question: 猫会开车吗？
+Ground Truth: 根据给定资料无法确定。
+Prediction: 根据给定资料无法确定。
+Status: insufficient
+Exact Match: True
+Keyword Hit Score: 1.0000
+Evidence: []
+Contexts: ['猫属于猫科动物。', '猫是哺乳动物。', '猫会用喵喵叫表达需求。']
+------------------------------------------------------------
+[ID] 6
+Question: 苹果是什么？
+Ground Truth: 苹果是一种水果。
+Prediction: 根据给定资料无法确定。
+Status: insufficient
+Exact Match: False
+Keyword Hit Score: 0.0000
+Evidence: []
+Contexts: ['苹果是一种水果。', '苹果富含膳食纤维。', '梨是一种水果。']
+------------------------------------------------------------
+[ID] 7
+Question: 橘子富含什么？
+Ground Truth: 橘子富含维生素C。
+Prediction: 根据给定资料无法确定。
+Status: insufficient
+Exact Match: False
+Keyword Hit Score: 0.0000
+Evidence: []
+Contexts: ['橘子是一种水果。', '橘子富含维生素C。', '水果通常含有维生素。']
+------------------------------------------------------------
+[ID] 8
+Question: 狗会做什么？
+Ground Truth: 根据给定资料，狗会看家，也会摇尾巴表达情绪。
+Prediction: 根据给定资料无法确定。
+Status: insufficient
+Exact Match: False
+Keyword Hit Score: 0.0000
+Evidence: []
+Contexts: ['狗属于犬科动物。', '狗会摇尾巴表达情绪。', '狗需要遛弯和训练。']
+------------------------------------------------------------
